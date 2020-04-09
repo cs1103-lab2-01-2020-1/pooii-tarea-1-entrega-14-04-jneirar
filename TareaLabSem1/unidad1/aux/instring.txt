@@ -1,0 +1,10 @@
+utec
+lima
+barranco
+municipalidad
+profesor
+alumno
+bola
+partido
+computadora
+etc

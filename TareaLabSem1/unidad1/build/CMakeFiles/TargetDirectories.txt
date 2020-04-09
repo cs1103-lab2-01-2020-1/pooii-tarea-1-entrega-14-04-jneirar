@@ -1,0 +1,3 @@
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/rebuild_cache.dir
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/edit_cache.dir

@@ -4,7 +4,9 @@
 #include "clases/quicksort2_t.h"
 #include "clases/quicksort2_t.cpp"
 #include "clases/Integer.h"
-#include "clases/Integer.cpp"
+//#include "clases/Integer.cpp"
+#include "clases/Number.h"
+#include "clases/Number.cpp"
 
 void ejercicio1() {
 
@@ -114,4 +116,18 @@ void ejercicio5a(){
     Integer A2(4);
     cout << "\tA1=8 y A2(4). A1 > A2: " << (A1>A2) << endl;
     cout << "\tA1=8 y A2(4). A1 == A2: " << (A1==A2) << endl;
+}
+
+void ejercicio5b(){
+    cout << "Clase Number generada" << endl;
+    Number<int> A1;
+    cout << "\tCreating integer A1(): " << A1 << endl;
+    A1 = 2;
+    cout << "\tA1 = 2: " << A1 << endl;
+    A1 *= 4;
+    cout << "\tA1 *= 4: " << A1 << endl;
+    cout << "\tA1 ^ 3: " << (A1^3) << endl;
+    Number<float> A2(2.5);
+    cout << "\tCreating float A2(): " << A2 << endl;
+    cout << "\tA2 ^ 3: " << (A2^3) << endl;
 }

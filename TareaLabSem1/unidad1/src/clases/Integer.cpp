@@ -25,12 +25,12 @@ Integer::operator int(){
     return this->value;
 }
 
-std::ostream& operator <<(std::ostream& os, const Integer& other){
+ostream& operator <<(ostream& os, const Integer& other){
     os << other.value;
     return os;
 }
 
-std::istream& operator >>(std::istream& os, Integer& other){
+istream& operator >>(istream& os, Integer& other){
     os >> other.value;
     return os;
 }

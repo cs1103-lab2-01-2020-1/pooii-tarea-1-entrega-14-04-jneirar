@@ -15,7 +15,8 @@ int main() {
     cout << "\texecuted successfully" << endl;
     cout << "Ejercicio5a: " << endl;
     ejercicio5a();
-
+    cout << "Ejercicio5b: " << endl;
+    ejercicio5b();
 
 
 

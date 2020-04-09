@@ -123,6 +123,60 @@ unidad1/fast:
 	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/build
 .PHONY : unidad1/fast
 
+src/clases/Integer.o: src/clases/Integer.cpp.o
+
+.PHONY : src/clases/Integer.o
+
+# target to build an object file
+src/clases/Integer.cpp.o:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o
+.PHONY : src/clases/Integer.cpp.o
+
+src/clases/Integer.i: src/clases/Integer.cpp.i
+
+.PHONY : src/clases/Integer.i
+
+# target to preprocess a source file
+src/clases/Integer.cpp.i:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Integer.cpp.i
+.PHONY : src/clases/Integer.cpp.i
+
+src/clases/Integer.s: src/clases/Integer.cpp.s
+
+.PHONY : src/clases/Integer.s
+
+# target to generate assembly for a file
+src/clases/Integer.cpp.s:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Integer.cpp.s
+.PHONY : src/clases/Integer.cpp.s
+
+src/clases/Number.o: src/clases/Number.cpp.o
+
+.PHONY : src/clases/Number.o
+
+# target to build an object file
+src/clases/Number.cpp.o:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Number.cpp.o
+.PHONY : src/clases/Number.cpp.o
+
+src/clases/Number.i: src/clases/Number.cpp.i
+
+.PHONY : src/clases/Number.i
+
+# target to preprocess a source file
+src/clases/Number.cpp.i:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Number.cpp.i
+.PHONY : src/clases/Number.cpp.i
+
+src/clases/Number.s: src/clases/Number.cpp.s
+
+.PHONY : src/clases/Number.s
+
+# target to generate assembly for a file
+src/clases/Number.cpp.s:
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Number.cpp.s
+.PHONY : src/clases/Number.cpp.s
+
 src/clases/quicksort2_t.o: src/clases/quicksort2_t.cpp.o
 
 .PHONY : src/clases/quicksort2_t.o
@@ -267,6 +321,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... unidad1"
 	@echo "... edit_cache"
+	@echo "... src/clases/Integer.o"
+	@echo "... src/clases/Integer.i"
+	@echo "... src/clases/Integer.s"
+	@echo "... src/clases/Number.o"
+	@echo "... src/clases/Number.i"
+	@echo "... src/clases/Number.s"
 	@echo "... src/clases/quicksort2_t.o"
 	@echo "... src/clases/quicksort2_t.i"
 	@echo "... src/clases/quicksort2_t.s"

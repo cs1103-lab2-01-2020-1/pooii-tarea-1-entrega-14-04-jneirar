@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/unidad1.dir/src/ejercicios.cpp.o"
   "CMakeFiles/unidad1.dir/src/funciones.cpp.o"
   "CMakeFiles/unidad1.dir/src/main.cpp.o"
+  "CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o"
+  "CMakeFiles/unidad1.dir/src/clases/Number.cpp.o"
   "CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o"
   "CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o"
   "unidad1.pdb"

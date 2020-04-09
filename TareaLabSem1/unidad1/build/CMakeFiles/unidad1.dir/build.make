@@ -129,9 +129,57 @@ CMakeFiles/unidad1.dir/src/main.cpp.o.provides: CMakeFiles/unidad1.dir/src/main.
 CMakeFiles/unidad1.dir/src/main.cpp.o.provides.build: CMakeFiles/unidad1.dir/src/main.cpp.o
 
 
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o: CMakeFiles/unidad1.dir/flags.make
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o: ../src/clases/Integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o -c "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.cpp"
+
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unidad1.dir/src/clases/Integer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.cpp" > CMakeFiles/unidad1.dir/src/clases/Integer.cpp.i
+
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad1.dir/src/clases/Integer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.cpp" -o CMakeFiles/unidad1.dir/src/clases/Integer.cpp.s
+
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.requires:
+
+.PHONY : CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.requires
+
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.provides: CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.provides.build
+.PHONY : CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.provides
+
+CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.provides.build: CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o
+
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.o: CMakeFiles/unidad1.dir/flags.make
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.o: ../src/clases/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unidad1.dir/src/clases/Number.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad1.dir/src/clases/Number.cpp.o -c "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp"
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unidad1.dir/src/clases/Number.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp" > CMakeFiles/unidad1.dir/src/clases/Number.cpp.i
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad1.dir/src/clases/Number.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp" -o CMakeFiles/unidad1.dir/src/clases/Number.cpp.s
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.requires:
+
+.PHONY : CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.requires
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.provides: CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.requires
+	$(MAKE) -f CMakeFiles/unidad1.dir/build.make CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.provides.build
+.PHONY : CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.provides
+
+CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.provides.build: CMakeFiles/unidad1.dir/src/clases/Number.cpp.o
+
+
 CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o: CMakeFiles/unidad1.dir/flags.make
 CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o: ../src/clases/quicksort2_t.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o -c "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort2_t.cpp"
 
 CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.i: cmake_force
@@ -155,7 +203,7 @@ CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o: CMakeFiles/unidad1.dir/flags.make
 CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o: ../src/clases/quicksort_t.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o -c "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort_t.cpp"
 
 CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.i: cmake_force
@@ -182,6 +230,8 @@ unidad1_OBJECTS = \
 "CMakeFiles/unidad1.dir/src/ejercicios.cpp.o" \
 "CMakeFiles/unidad1.dir/src/funciones.cpp.o" \
 "CMakeFiles/unidad1.dir/src/main.cpp.o" \
+"CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o" \
+"CMakeFiles/unidad1.dir/src/clases/Number.cpp.o" \
 "CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o" \
 "CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o"
 
@@ -191,11 +241,13 @@ unidad1_EXTERNAL_OBJECTS =
 unidad1: CMakeFiles/unidad1.dir/src/ejercicios.cpp.o
 unidad1: CMakeFiles/unidad1.dir/src/funciones.cpp.o
 unidad1: CMakeFiles/unidad1.dir/src/main.cpp.o
+unidad1: CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o
+unidad1: CMakeFiles/unidad1.dir/src/clases/Number.cpp.o
 unidad1: CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o
 unidad1: CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o
 unidad1: CMakeFiles/unidad1.dir/build.make
 unidad1: CMakeFiles/unidad1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable unidad1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable unidad1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unidad1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +258,8 @@ CMakeFiles/unidad1.dir/build: unidad1
 CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/ejercicios.cpp.o.requires
 CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/funciones.cpp.o.requires
 CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/main.cpp.o.requires
+CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o.requires
+CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/clases/Number.cpp.o.requires
 CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o.requires
 CMakeFiles/unidad1.dir/requires: CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o.requires
 

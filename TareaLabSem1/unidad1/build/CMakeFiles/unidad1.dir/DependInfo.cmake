@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.cpp" "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir/src/clases/Integer.cpp.o"
+  "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp" "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir/src/clases/Number.cpp.o"
   "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort2_t.cpp" "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir/src/clases/quicksort2_t.cpp.o"
   "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort_t.cpp" "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o"
   "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/ejercicios.cpp" "/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/build/CMakeFiles/unidad1.dir/src/ejercicios.cpp.o"

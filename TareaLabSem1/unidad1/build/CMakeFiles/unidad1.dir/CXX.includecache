@@ -14,6 +14,14 @@ Integer.h
 ../tipos.h
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/tipos.h
 
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp
+Number.h
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.h
+
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.h
+../tipos.h
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/tipos.h
+
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort2_t.cpp
 quicksort2_t.h
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort2_t.h
@@ -43,8 +51,10 @@ clases/quicksort2_t.cpp
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/quicksort2_t.cpp
 clases/Integer.h
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.h
-clases/Integer.cpp
-/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Integer.cpp
+clases/Number.h
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.h
+clases/Number.cpp
+/home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/clases/Number.cpp
 
 /home/jneira/UTEC/2020-1/POOII/Semana 01/pooii-tarea-1-entrega-14-04-jneirar/TareaLabSem1/unidad1/src/ejercicios.h
 tipos.h

@@ -3,6 +3,8 @@
 #include "clases/quicksort_t.h"
 #include "clases/quicksort2_t.h"
 #include "clases/quicksort2_t.cpp"
+#include "clases/Integer.h"
+#include "clases/Integer.cpp"
 
 void ejercicio1() {
 
@@ -98,4 +100,18 @@ void ejercicio4() {
     quicksort2_t<string> qsstring;
     qsstring<<"instring.txt";
     qsstring>>"out4.txt";
+}
+
+void ejercicio5a(){
+    cout << "Clase Integer generada" << endl;
+    Integer A1;
+    cout << "\tCreating A1(): " << A1 << endl;
+    A1 = 2;
+    cout << "\tA1 = 2: " << A1 << endl;
+    A1 *= 4;
+    cout << "\tA1 *= 4: " << A1 << endl;
+    cout << "\tA1 ^ 3: " << (A1^3) << endl;
+    Integer A2(4);
+    cout << "\tA1=8 y A2(4). A1 > A2: " << (A1>A2) << endl;
+    cout << "\tA1=8 y A2(4). A1 == A2: " << (A1==A2) << endl;
 }

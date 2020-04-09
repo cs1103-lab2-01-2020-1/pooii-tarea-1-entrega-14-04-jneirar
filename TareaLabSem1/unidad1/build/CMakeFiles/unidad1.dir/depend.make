@@ -9,6 +9,8 @@ CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o: ../src/clases/quicksort_t.c
 CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o: ../src/clases/quicksort_t.h
 CMakeFiles/unidad1.dir/src/clases/quicksort_t.cpp.o: ../src/tipos.h
 
+CMakeFiles/unidad1.dir/src/ejercicios.cpp.o: ../src/clases/Integer.cpp
+CMakeFiles/unidad1.dir/src/ejercicios.cpp.o: ../src/clases/Integer.h
 CMakeFiles/unidad1.dir/src/ejercicios.cpp.o: ../src/clases/quicksort2_t.cpp
 CMakeFiles/unidad1.dir/src/ejercicios.cpp.o: ../src/clases/quicksort2_t.h
 CMakeFiles/unidad1.dir/src/ejercicios.cpp.o: ../src/clases/quicksort_t.h

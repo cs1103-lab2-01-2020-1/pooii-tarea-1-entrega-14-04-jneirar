@@ -8,5 +8,6 @@ void ejercicio2();
 void ejercicio3a();
 void ejercicio3b();
 void ejercicio4();
+void ejercicio5a();
 
 #endif //EJERCICIOS_H

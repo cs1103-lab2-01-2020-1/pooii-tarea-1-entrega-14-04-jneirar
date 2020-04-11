@@ -22,6 +22,7 @@ public:
     void quicksort(int* data, int l, int h);
     friend quicksort_t& operator<<(quicksort_t& qs, const string& file_name);
     friend quicksort_t& operator>>(quicksort_t& qs, const string& file_name);
+
 };
 
 #endif //QUICKSORT_T_H

@@ -22,6 +22,8 @@ void quicksort_t::add_one() {
             aux[i] = data_[i];
         delete [] data_;
         data_ = aux;
+        aux = nullptr;
+        delete [] aux;
     }
     ++size_;
 }
@@ -52,7 +54,6 @@ int quicksort_t::partition_hoare(int* data, int l, int h) {
         if (j<=i) return j;
         swap(data[i], data[j]);
     }
-
 }
 
 void quicksort_t::quicksort(int *data, int l, int h) {
@@ -72,3 +73,4 @@ quicksort_t& operator>>(quicksort_t &qs, const string &file_name) {
     }
     return qs;
 }
+

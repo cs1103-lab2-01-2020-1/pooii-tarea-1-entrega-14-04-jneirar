@@ -19,7 +19,6 @@ int main() {
     ejercicio5b();
     cout << "Ejercicio6: " << endl;
     ejercicio6();
-
     return 0;
 }
 

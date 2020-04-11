@@ -99,7 +99,6 @@ void ejercicio4() {
     quicksort2_t<int> qs;
     qs<<"in.txt";
     qs>>"out3.txt";
-
     quicksort2_t<string> qsstring;
     qsstring<<"instring.txt";
     qsstring>>"out4.txt";

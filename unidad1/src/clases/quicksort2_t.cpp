@@ -27,6 +27,7 @@ void quicksort2_t<T>::add_one() {
             aux[i] = data_[i];
         delete [] data_;
         data_ = aux;
+        aux = nullptr;
         delete [] aux;
     }
     ++size_;
@@ -58,7 +59,7 @@ quicksort2_t<U>& operator>>(quicksort2_t<U> &qs, const string &file_name) {
 }
 
 template <typename T>
-static int partition_hoare(T* data, int l, int h) {
+int partition_hoare(T* data, int l, int h) {
     int i = l-1, j = h+1;
     T pivot = data[l];
     while (true) {
@@ -74,12 +75,10 @@ static int partition_hoare(T* data, int l, int h) {
 }
 
 template <typename T>
-static void quicksort(T* data, int l, int h) {
+void quicksort(T* data, int l, int h) {
     if (l < h) {
         int p = partition_hoare(data, l, h);
         quicksort(data, l, p);
         quicksort(data, p+1, h);
     }
 }
-
-

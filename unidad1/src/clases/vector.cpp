@@ -22,8 +22,16 @@ vector::vector(size_t size): size_{size} {
 vector::vector(const UTEC::vector &vc) {
     capacity_ = vc.capacity_;
     size_ = vc.size_;
+
+    int* temp = new int[capacity_];
+    for (size_t i = 0; i < size_; i++)
+        temp[i] = vc.data_[i];
+
     data_ = new int[capacity_];
-    data_ = vc.data_;
+    data_ = temp;
+
+    temp = nullptr;
+    delete [] temp;
 }
 
 vector::vector(int *data, size_t size) {

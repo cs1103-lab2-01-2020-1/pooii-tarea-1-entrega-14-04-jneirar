@@ -164,5 +164,5 @@ void vector::imprime() {
     for(size_t i = 0; i < size_; i++)
         std::cout << data_[i] << " ";
     std::cout << "\n";
-    std::cout << "SIZE: " << size_ << " CAPACITY: " << capacity_ << "\n";
+    std::cout << "\tSIZE: " << size_ << " CAPACITY: " << capacity_ << "\n";
 }

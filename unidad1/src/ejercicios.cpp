@@ -106,40 +106,164 @@ void ejercicio4() {
 
 void ejercicio5a(){
     cout << "Clase Integer generada" << endl;
+    cout << "En todos los ejemplos se usa cout << Integer" << endl;
+
+    cout << "TEST CONSTRUCTORS:" << endl;
+
     Integer A1;
-    cout << "\tCreating A1(): " << A1 << endl;
+    cout << "\tCreating A1 vacío Integer A1: " << A1 << endl;
+
+    Integer A(1);
+    cout << "\tCreating A with initial value Integer A(1): " << A << endl;
+
+    Integer B = A;
+    cout << "\tCreating B with copy constructor with A Integer B=A: " << "A = " << A << ", B = " << B << endl;
+
+    cout << "TEST ASSIGNMENT - CAST:" << endl;
+
     A1 = 2;
     cout << "\tA1 = 2: " << A1 << endl;
-    A1 *= 4;
-    cout << "\tA1 *= 4: " << A1 << endl;
-    cout << "\tA1 ^ 3: " << (A1^3) << endl;
-    Integer A2(4);
-    cout << "\tA1=8 y A2(4). A1 > A2: " << (A1>A2) << endl;
-    cout << "\tA1=8 y A2(4). A1 == A2: " << (A1==A2) << endl;
+
+    float floatVar = 2.5;
+    B = (int) floatVar;
+    cout << "\tfloat floatVar = 2.5; B = (int) floatVar: " << B << endl;
+
+    cout << "TEST MATH OPERATIONS: A = 2, B = 5" << endl;
+    A = 2;
+    B = 5;
+    Integer C;
+
+    C = A ^ 2; //A = 2, B = 5
+    cout <<  "\tC = A ^ 2: " << C << endl;
+    C = A ^ 10; //A = 2, B = 5
+    cout <<  "\tC = A ^ 10: " << C << endl;
+
+    C = A + B; //A = 2, B = 5
+    cout <<  "\tC = A + B: " << C << endl;
+
+    C = B - A; //A = 2, B = 5
+    cout <<  "\tC = B - A: " << C << endl;
+
+    C = A * B; //A = 2, B = 5
+    cout <<  "\tC = A * B: " << C << endl;
+
+    C = B / A; //A = 2, B = 5
+    cout <<  "\tC = B / A: " << C << endl;
+
+    A += 6; //A = 8
+    cout <<  "\tA += 6: " << A << endl;
+
+    A -= 5; //A = 3
+    cout <<  "\tA -= 5: " << A << endl;
+
+    A *= 7; //A = 21
+    cout <<  "\tA *= 7: " << A << endl;
+
+    A /= 3; //A = 7
+    cout <<  "\tA /= 3: " << A << endl;
+
+    cout << "TEST COMPARE OPERATIONS: A = 6, B = 4, C = 6" << endl;
+    A = 6; B = 4; C = 6;
+
+    cout << "\tA > B: " << (A > B) << endl;
+    cout << "\tB > C: " << (B > C) << endl;
+    cout << "\tA < C: " << (A < C) << endl;
+    cout << "\tB < C: " << (B < C) << endl;
+    cout << "\tA == B: " << (A == B) << endl;
+    cout << "\tA == C: " << (A == C) << endl;
+    cout << "\tA != B: " << (A != B) << endl;
+    cout << "\tA != C: " << (A != C) << endl;
+
+    cout << "TEST IN-OUT" << endl;
+    cout << "\tInsert a number: ";
+    cin >> A;
+    cout << "\tInteger A is: " << A << endl;
 }
 
 void ejercicio5b(){
     cout << "Clase Number generada" << endl;
-    Number<int> A1;
-    cout << "\tCreating integer A1(): " << A1 << endl;
-    A1 = 2;
-    cout << "\tA1 = 2: " << A1 << endl;
-    A1 *= 4;
-    cout << "\tA1 *= 4: " << A1 << endl;
-    cout << "\tA1 ^ 3: " << (A1^3) << endl;
-    Number<float> A2(2.5);
-    cout << "\tCreating float A2(): " << A2 << endl;
-    cout << "\tA2 ^ 3: " << (A2^3) << endl;
+    cout << "Test the same examples from exercise 5a with float numbers" << endl;
+
+    cout << "TEST CONSTRUCTORS:" << endl;
+
+    Number<float> A1;
+    cout << "\tCreating A1 vacío Number<float> A1: " << A1 << endl;
+
+    Number<float> A(1.5);
+    cout << "\tCreating A with initial value Integer Number<float> A(1.5): " << A << endl;
+
+    Number<float> B = A;
+    cout << "\tCreating B with copy constructor with A Number<float> B = A: " << "A = " << A << ", B = " << B << endl;
+
+    cout << "TEST ASSIGNMENT - CAST:" << endl;
+
+    A1 = 2.5;
+    cout << "\tA1 = 2.5: " << A1 << endl;
+
+    int numInt = 5;
+    B = (float) numInt;
+    cout << "\tint numInt = 5; B = (float) numInt: " << B << endl;
+
+    cout << "TEST MATH OPERATIONS: A = 2.5, B = 3.8" << endl;
+    A = 2.5;
+    B = 3.8;
+    Number<float> C;
+
+    C = A ^ 2; //A = 2.5 B = 3.8
+    cout <<  "\tC = A ^ 2: " << C << endl;
+    C = A ^ 10; //A = 2.5 B = 3.8
+    cout <<  "\tC = A ^ 10: " << C << endl;
+
+    C = A + B; //A = 2.5 B = 3.8
+    cout <<  "\tC = A + B: " << C << endl;
+
+    C = B - A; //A = 2.5 B = 3.8
+    cout <<  "\tC = B - A: " << C << endl;
+
+    C = A * B; //A = 2.5 B = 3.8
+    cout <<  "\tC = A * B: " << C << endl;
+
+    C = B / A; //A = 2.5 B = 3.8
+    cout <<  "\tC = B / A: " << C << endl;
+
+    A += 6; //A = 8.5
+    cout <<  "\tA += 6: " << A << endl;
+
+    A -= 4; //A = 4.5
+    cout <<  "\tA -= 4: " << A << endl;
+
+    A *= 2; //A = 9
+    cout <<  "\tA *= 2: " << A << endl;
+
+    A /= 5; //A = 1.8
+    cout <<  "\tA /= 5: " << A << endl;
+
+    cout << "TEST COMPARE OPERATIONS: A = 1.7, B = 2.5, C = 1.7" << endl;
+    A = 1.7; B = 2.5; C = 1.7;
+
+    cout << "\tA > B: " << (A > B) << endl;
+    cout << "\tB > C: " << (B > C) << endl;
+    cout << "\tA < C: " << (A < C) << endl;
+    cout << "\tB < C: " << (B < C) << endl;
+    cout << "\tA == B: " << (A == B) << endl;
+    cout << "\tA == C: " << (A == C) << endl;
+    cout << "\tA != B: " << (A != B) << endl;
+    cout << "\tA != C: " << (A != C) << endl;
+
+    cout << "TEST IN-OUT" << endl;
+    cout << "\tInsert a FLOAT number: ";
+    cin >> A;
+    cout << "\tA is: " << A << endl;
 }
 
 void ejercicio6(){
     cout << "Clase UTEC::vector creada" << endl;
-
+    cout << "Use print function to print the vector with size and capacity" << endl;
+    cout << "\n\tCreating UTEC::vector V1 and insert 2, 3, 4 with pushback: ";
     UTEC::vector V1;
     V1.push_back(2);
     V1.push_back(3);
     V1.push_back(4);
-    cout << "\n\tCreating V1: ";
     V1.imprime();
 
     V1.push_back(3);
@@ -176,4 +300,9 @@ void ejercicio6(){
     V3 = V1 + V2;
     cout << "\n\tCreating V3 = V1 + V2: ";
     V3.imprime();
+
+    int arr[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    UTEC::vector V4(arr, 10);
+    cout << "\n\tCreating V4. arr is an array. UTEC::vector V4(arr, 10): ";
+    V4.imprime();
 }

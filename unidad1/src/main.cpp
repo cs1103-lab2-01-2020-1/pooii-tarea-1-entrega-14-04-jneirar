@@ -1,7 +1,7 @@
 #include "ejercicios.h"
 
 int main() {
-    cout << "Ejercicio1: " << endl;
+    /*cout << "Ejercicio1: " << endl;
     ejercicio1();
     cout << "Ejercicio2: " << endl;
     ejercicio2();
@@ -13,11 +13,12 @@ int main() {
     cout << "Ejercicio4: " << endl;
     ejercicio4();
     cout << "\texecuted successfully" << endl;
+     */
     cout << "Ejercicio5a: " << endl;
     ejercicio5a();
-    cout << "Ejercicio5b: " << endl;
+    cout << "\nEjercicio5b: " << endl;
     ejercicio5b();
-    cout << "Ejercicio6: " << endl;
+    cout << "\nEjercicio6: " << endl;
     ejercicio6();
     return 0;
 }

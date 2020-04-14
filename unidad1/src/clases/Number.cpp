@@ -79,28 +79,8 @@ Number<T> Number<T>::operator^(int pot){
 }
 
 template <typename T>
-Number<T>::operator int(){
-    return (int) this->value;
-}
-
-template <typename T>
-Number<T>::operator long int(){
-    return (long int) this->value;
-}
-
-template <typename T>
-Number<T>::operator long long int(){
-    return (long long int) this->value;
-}
-
-template <typename T>
-Number<T>::operator double(){
-    return (double) this->value;
-}
-
-template <typename T>
-Number<T>::operator float(){
-    return (float) this->value;
+Number<T>::operator T() {
+    return value;
 }
 
 template <typename T>

@@ -28,11 +28,7 @@ public:
     Number operator/=(T value);
 
     Number operator^(int value);
-    operator int();
-    operator long int();
-    operator long long int();
-    operator double();
-    operator float();
+    operator T();
 
     bool operator>(const Number& other);
     bool operator>=(const Number& other);
